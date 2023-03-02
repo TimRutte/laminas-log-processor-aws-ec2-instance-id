@@ -1,0 +1,28 @@
+{
+    "name": "timrutte/laminas-log-processor-aws-ec2-instance-id",
+    "description": "Log processor to add the AWS EC2 instance id to the logger",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "laminas",
+        "log",
+        "logging"
+    ],
+    "homepage": "https://www.timrutte.de",
+    "support": {
+        "issues": "https://github.com/timrutte/laminas-log-processor-aws-ec2-instance-id/issues",
+        "source": "https://github.com/timrutte/laminas-log-processor-aws-ec2-instance-id",
+        "rss": "https://github.com/timrutte/laminas-log-processor-aws-ec2-instance-id/releases.atom"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.0",
+        "laminas/laminas-log": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "TimRutte\\Laminas\\Log\\": "src/"
+        }
+    }
+}
